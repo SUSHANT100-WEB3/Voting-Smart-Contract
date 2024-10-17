@@ -1,12 +1,6 @@
 // SPDX-License-Identifier: MIT
 
-
-
-
 pragma solidity ^0.8.26;
-
-
-
 
 contract Vote {
 
@@ -20,7 +14,7 @@ contract Vote {
         uint voterId;
         Gender gender;
         uint voteCandidateId; //candidate id to whom the voter has voted
-        address voterAddress; //EOA of the voter
+        address voterAddress; //EOA 
     }
 
 
